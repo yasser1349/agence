@@ -1,0 +1,64 @@
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://programs.seminaire.com/uploads/seminaire_usa_new_york_1_adcc2933cc.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    color: white;
+}
+.destination-card {
+    transition: transform 0.3s;
+}
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+.feature-icon {
+    font-size: 2.5rem;
+    color: #0d6efd;
+}
+
+/* Style général */
+
+
+/* Boîte de connexion */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+   
+}
+
+/* Titre */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Champs de saisie */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Bouton de connexion */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
