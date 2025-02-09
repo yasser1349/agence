@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.google.com/imgres?q=image%20de%20site%20web&imgurl=https%3A%2F%2Fatelierssud.ch%2Fwp-content%2Fuploads%2F2020%2F10%2Fgestion-autonome-de-son-site-internet.jpg&imgrefurl=https%3A%2F%2Fatelierssud.ch%2Fapprendre-a-gerer-son-propre-site-web%2F&docid=73ECw4u4DrxptM&tbnid=wMaPwIVn09YYtM&vet=12ahUKEwiw2rWiy6mLAxVmSfEDHWgHFG8QM3oECE4QAA..i&w=2398&h=1204&hcb=2&ved=2ahUKEwiw2rWiy6mLAxVmSfEDHWgHFG8QM3oECE4QAA;");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 330px;
+    height: auto;
+    padding: 20px;
+    background: linear-gradient(#000000fd, #14000027);
+    backdrop-filter: blur(7px);
+    border: 1px solid #7700ff;
+    box-shadow: 0 8px 32px #0000008a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.user1, .user2 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.txt {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+.txt:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+}
+
+.mypw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.mypw a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mypw a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #0066cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+form p a {
+    color: #005bb5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
