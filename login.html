@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Login - yasser Voyages</title>
     <link href="style1.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+   
 </head>
 <body>
-    <form>
-        <h1>Login</h1>
-        <div class="user1">
-            <input class="txt" type="text" name="username" placeholder="Username" required>
+    <div class="login-box">
+        <div class="brand">
+            <i class="fas fa-paper-plane me-2"></i>mon voyage
         </div>
-        <div class="user2">
-            <input class="txt" type="password" name="password" placeholder="Password" required>
+
+        <div class="welcome-text">
+            Découvrez des destinations de rêve
         </div>
-        <div class="mypw">
-            <div>
-                <input type="checkbox" id="remember-me">
-                <label for="remember-me"> Remember me</label>
+
+        <form>
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="Email">
+                <i class="fas fa-envelope input-icon"></i>
             </div>
-            <a href="#">Forgot password?</a>
-        </div>
-        <button type="submit"><a href="index.html"style="text-decoration: none;">Login</a></button>
-        <div>
-            <p>Don't have an account? <a href="#">Register</a></p>
-        </div>
-    </form>
+
+            <div class="input-group">
+                <input type="password" class="form-control" placeholder="Mot de passe">
+                <i class="fas fa-lock input-icon"></i>
+            </div>
+
+            <button type="submit" class="btn-login">
+                Se connecter
+            </button>
+
+            <div class="social-login">
+                <button type="button" class="social-btn">
+                    <i class="fab fa-google"></i>
+                </button>
+                <button type="button" class="social-btn">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="social-btn">
+                    <i class="fab fa-apple"></i>
+                </button>
+            </div>
+
+            <div class="footer-text">
+                votre compte ? <a href="#" class="footer-link">mode pass oublié</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
